@@ -1,5 +1,7 @@
+import Router from "./global/BaseRouter";
+
 function App() {
-    return <div> Hello </div>;
+    return <Router></Router>;
 }
 
 export default App;
