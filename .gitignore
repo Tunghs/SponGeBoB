@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/front/spongebob/node_modules
+/front/spongebob/.pnp
+/front/spongebob/.pnp.js
+
+# testing
+/front/spongebob/coverage
+
+# production
+/front/spongebob/build
+
+# misc
+/front/spongebob/.DS_Store
+/front/spongebob/.env.local
+/front/spongebob/.env.development.local
+/front/spongebob/.env.test.local
+/front/spongebob/.env.production.local
+
+/front/spongebob/npm-debug.log*
+/front/spongebob/yarn-debug.log*
+/front/spongebob/yarn-error.log*
+
+
+# compiled output
+/back/spongebob/dist
+/back/spongebob/node_modules
+
+# Logs
+
+/back/spongebob/*.log
+/back/spongebob/npm-debug.log*
+/back/spongebob/pnpm-debug.log*
+/back/spongebob/yarn-debug.log*
+/back/spongebob/yarn-error.log*
+/back/spongebob/lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/back/spongebob/coverage
+/back/spongebob/.nyc_output
+
+
