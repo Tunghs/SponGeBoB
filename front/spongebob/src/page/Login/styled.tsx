@@ -9,37 +9,24 @@ export const UserBackGroundConteiner = styled.div`
     background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
 `;
 
-export const ColorDiv = styled.div`
+export const ColorDiv = styled.div<{ blur?: string; top?: string; right?: string; bottom?: string; left?: string; width?: string; height?: string; background?: string }>`
     position: absolute;
-    filter: blur(150px);
-
-    :nth-child(1) {
+    filter: ${(p) => `blur(${p.blur})`};
+    top: ${(p) => p.top};
+    right: ${(p) => p.right};
+    bottom: ${(p) => p.bottom};
+    left: ${(p) => p.left};
+    width: ${(p) => p.width};
+    height: ${(p) => p.height};
+    background: ${(p) => p.background};
+    /* :nth-child(1) {
         top: -250px;
-        left: 100px;
+        right: 500px;
         width: 600px;
         height: 700px;
         background: #2e86de;
     }
-    :nth-child(2) {
-        bottom: -150px;
-        width: 700px;
-        height: 700px;
-        background: #0abde3;
-    }
-    :nth-child(3) {
-        bottom: 300px;
-        right: 100px;
-        width: 300px;
-        height: 300px;
-        background: #feca57;
-    }
-    :nth-child(4) {
-        top: 0px;
-        right: 400px;
-        width: 300px;
-        height: 300px;
-        background: #ff6b6b;
-    }
+     */
 `;
 
 export const DesignBox = styled.div<{ top?: string; right?: string; bottom?: string; left?: string; width?: string; height?: string; zindex?: string }>`
