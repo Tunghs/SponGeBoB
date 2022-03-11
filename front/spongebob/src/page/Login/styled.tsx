@@ -5,7 +5,7 @@ export const UserBackGroundConteiner = styled.div`
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+    background: linear-gradient(to bottom, #feca57, #dff1ff);
 `;
 
 export const ColorDiv = styled.div<{ blur?: string; top?: string; right?: string; bottom?: string; left?: string; width?: string; height?: string; background?: string }>`
