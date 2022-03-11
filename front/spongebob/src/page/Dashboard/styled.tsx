@@ -8,7 +8,7 @@ export const DashBoardBackGroundConteiner = styled.div`
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #ee5253, #dff1ff);
+    background: linear-gradient(to bottom, #ff6b6b, #dff1ff);
     ::before {
         content: "";
         position: absolute;

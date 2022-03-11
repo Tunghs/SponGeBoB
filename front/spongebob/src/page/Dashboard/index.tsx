@@ -70,7 +70,7 @@ const Dashboard = () => {
         <DashBoardBackGroundConteiner>
             <ColorDiv blur="250px" left="-100px" top="-350px" width="600px" height="600px" background="#f368e0"></ColorDiv>
             <ColorDiv blur="250px" bottom="100px" left="400px" width="1200px" height="500px" background="#feca57"></ColorDiv>
-            <ColorDiv blur="250px" bottom="150px" right="-50px" width="400px" height="400px" background="#00d2d3"></ColorDiv>
+            <ColorDiv blur="250px" bottom="150px" right="-50px" width="400px" height="400px" background="#0abde3"></ColorDiv>
             <ColorDiv blur="250px" bottom="-50px" left="0px" width="300px" height="300px" background="#00d2d3"></ColorDiv>
             <Ul>
                 <Li>
